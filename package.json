@@ -1,0 +1,21 @@
+{
+  "name": "webpackproject3",
+  "version": "1.0.0",
+  "description": "webpack practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack src/js/index.js dist/bundle.js",
+    "build:prod": "webpack -p"
+  },
+  "author": "pritam",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.3.0"
+  }
+}
